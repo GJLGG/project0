@@ -1,0 +1,12 @@
+@media (min-width:700px) {
+  h1::before{
+    content:"Potential ";
+  }
+  h1::after{
+    content: " and Information"
+  }
+}
+
+h1 {
+  text-align: center;
+}
